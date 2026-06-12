@@ -76,8 +76,44 @@ chapters = [
 		},
 		icon: spr_ui_chs_ch4,
 	},
-	-1,
-	-1,
+	{
+		name: "chapter_5",
+		exec: function(caller){
+			music_stop(0)
+			audio_play(snd_chs_ch3)
+			
+			animate(0, 1, 20, "linear", caller, "trans_shrink")
+			
+			call_later(80, time_source_units_frames, function() {
+				global.chapter = 5
+                save_entry_set_default("ROOM", room_test_main)
+                save_entry_set_default("CHAPTER", 5)
+                
+				save_reload()
+				room_goto(room_save_select)
+			})
+		},
+		icon: spr_ui_chs_ch3,
+	},
+	{
+		name: "chapter_6",
+		exec: function(caller){
+			music_stop(0)
+			audio_play(snd_chs_ch3)
+			
+			animate(0, 1, 20, "linear", caller, "trans_shrink")
+			
+			call_later(80, time_source_units_frames, function() {
+				global.chapter = 6
+                save_entry_set_default("ROOM", room_test_main)
+                save_entry_set_default("CHAPTER", 6)
+                
+				save_reload()
+				room_goto(room_save_select)
+			})
+		},
+		icon: spr_ui_chs_ch3,
+	},
 	-1,
 ]
 

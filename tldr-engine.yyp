@@ -1340,6 +1340,8 @@
     {"id":{"name":"spr_ui_chs_ch2","path":"sprites/spr_ui_chs_ch2/spr_ui_chs_ch2.yy",},},
     {"id":{"name":"spr_ui_chs_ch3","path":"sprites/spr_ui_chs_ch3/spr_ui_chs_ch3.yy",},},
     {"id":{"name":"spr_ui_chs_ch4","path":"sprites/spr_ui_chs_ch4/spr_ui_chs_ch4.yy",},},
+    {"id":{"name":"spr_ui_chs_ch5","path":"sprites/spr_ui_chs_ch5/spr_ui_chs_ch5.yy",},},
+    {"id":{"name":"spr_ui_chs_ch6","path":"sprites/spr_ui_chs_ch6/spr_ui_chs_ch6.yy",},},
     {"id":{"name":"spr_ui_chs_crystal","path":"sprites/spr_ui_chs_crystal/spr_ui_chs_crystal.yy",},},
     {"id":{"name":"spr_ui_chs_defafult","path":"sprites/spr_ui_chs_defafult/spr_ui_chs_defafult.yy",},},
     {"id":{"name":"spr_ui_chs_star","path":"sprites/spr_ui_chs_star/spr_ui_chs_star.yy",},},
